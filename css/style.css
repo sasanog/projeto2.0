@@ -7,7 +7,7 @@
     font-family: "roboto";
 }
 body {
-  /* flex-box: forma mais moderna para criar layouts. (coloca uma divisão) */
+  display: flex;/* flex-box: forma mais moderna para criar layouts. (coloca uma divisão) */
     flex-wrap: wrap; /* adciona quebra de linha - interessante para sites responsivos (em outros dispositivos */
 }
 
@@ -38,7 +38,7 @@ body {
 }
 #sobre-container h2 {
     font-size: 2.4rem;
-    max-width: 600px; /* largujta maxima */
+    max-width: 500px; /* largujta maxima */
     margin-bottom: 0.6rem;
 }
 #data {
@@ -48,7 +48,7 @@ body {
 }
 #description{
     line-height: 1.4rem;
-    max-width: 600px;
+    max-width: 500px;
     margin-bottom: 1rem;
 }
 #sobre-container h3{
@@ -73,16 +73,4 @@ body {
 
 #formulario {
     flex: 1;
-    display: inline;
-    padding: 2rem 4rem;
-    top: 100px;
-    right: 200px;
-    position: absolute;
-
-}
-#padding{
-    max-width: 1000px;
-    display: flex;
-    background-color: #6b6bdf;
-    max-width: 100%;
 }
