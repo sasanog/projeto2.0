@@ -1,0 +1,88 @@
+/* geral */
+/* para tingir todos os elementos do site usa-se * */
+* {
+    margin: 0; /* estilização padrão que apaga os estilos padrões do navegador */
+    padding: 0;
+    box-sizing: border-box; /* para os formuarios, padronizar os inputs */
+    font-family: "roboto";
+}
+body {
+  /* flex-box: forma mais moderna para criar layouts. (coloca uma divisão) */
+    flex-wrap: wrap; /* adciona quebra de linha - interessante para sites responsivos (em outros dispositivos */
+}
+
+/* apresentação do evento */
+#sobre-container {
+    flex: 1.4; /* vai estabelecer a proporção dos elementos proporcionalmente */
+    padding: 2rem  4rem;
+}
+#marca {
+    display: flex;
+    align-items: center;
+    font-size: o,8rem;
+    margin-bottom: 0.6rem;
+}
+/* conteudo dentro da div */
+#marca img {
+    height: 50px;
+    margin-right: 1rem;
+
+}
+#exclusivo {
+    text-transform: uppercase;
+    color: #2727ee;
+    font-weight:bold;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+
+}
+#sobre-container h2 {
+    font-size: 2.4rem;
+    max-width: 600px; /* largujta maxima */
+    margin-bottom: 0.6rem;
+}
+#data {
+    text-transform:uppercase;
+    color: #ccc;
+    margin-bottom: 1rem;
+}
+#description{
+    line-height: 1.4rem;
+    max-width: 600px;
+    margin-bottom: 1rem;
+}
+#sobre-container h3{
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+#users-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.user-card{
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 180px;
+    text-align: center;
+}
+.user-card img{
+    width: 160px;
+}
+/* formulario */
+
+#formulario {
+    flex: 1;
+    display: inline;
+    padding: 2rem 4rem;
+    top: 100px;
+    right: 200px;
+    position: absolute;
+
+}
+#padding{
+    max-width: 1000px;
+    display: flex;
+    background-color: #6b6bdf;
+    max-width: 100%;
+}
