@@ -7,7 +7,7 @@
     font-family: "roboto";
 }
 body {
-  /* flex-box: forma mais moderna para criar layouts. (coloca uma divisão) */
+    display:flex;/* flex-box: forma mais moderna para criar layouts. (coloca uma divisão) */
     flex-wrap: wrap; /* adciona quebra de linha - interessante para sites responsivos (em outros dispositivos */
 }
 
@@ -19,7 +19,7 @@ body {
 #marca {
     display: flex;
     align-items: center;
-    font-size: o,8rem;
+    font-size: 0.8rem;
     margin-bottom: 0.6rem;
 }
 /* conteudo dentro da div */
@@ -68,21 +68,22 @@ body {
 }
 .user-card img{
     width: 160px;
+    border-radius: 50%;
+    padding: 0.6rem;
 }
 /* formulario */
 
 #formulario {
-    flex: 1;
-    display: inline;
-    padding: 2rem 4rem;
-    top: 100px;
-    right: 200px;
-    position: absolute;
-
+   flex:1rem;
+   background-image: url(../img/pattern.png);
+   background-size: cover;
+   color: white;
 }
-#padding{
-    max-width: 1000px;
+#dentrodoform{
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid #fff;
+    text-align: center;
     display: flex;
-    background-color: #6b6bdf;
-    max-width: 100%;
 }
+
